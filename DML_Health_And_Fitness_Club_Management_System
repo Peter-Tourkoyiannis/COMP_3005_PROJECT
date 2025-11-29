@@ -1,7 +1,7 @@
 INSERT INTO users (email, first_name, last_name)
 VALUES 	('peter.tourkoyiannis@cu.com', 'Peter', 'Tourkoyiannis'),
-		    ('aryan.patel@cu.com', 'Aryan', 'Patel'),
-		    ('ethan.letto@cu.com', 'Ethan', 'Letto')
+		('aryan.patel@cu.com', 'Aryan', 'Patel'),
+		('ethan.letto@cu.com', 'Ethan', 'Letto')
 ;
 
 INSERT INTO trainer (biography, certifications, user_id)
@@ -77,7 +77,7 @@ VALUES 	(1, 1)
 ;
 
 INSERT INTO admin_manages_equipment (equipment_id, admin_id)
-VALUES 	(1, 1)
+VALUES  (1, 1)
 ;
 
 INSERT INTO room_booking_has_equipment (equipment_id, room_id)
@@ -109,7 +109,8 @@ VALUES 	(1, 1)
 ;
 
 INSERT INTO personal_training_session_has_session_registration (registration_id, pt_id)
-VALUES  (1, 1);
+VALUES  (1, 1)
+;
 
 INSERT INTO member_manages_session_registration (registration_id, member_id)
 VALUES (1, 1);
