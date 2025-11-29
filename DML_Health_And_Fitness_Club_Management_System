@@ -1,3 +1,5 @@
+-- Main Tables
+
 INSERT INTO users (email, first_name, last_name)
 VALUES 	('peter.tourkoyiannis@cu.com', 'Peter', 'Tourkoyiannis'),
 		('aryan.patel@cu.com', 'Aryan', 'Patel'),
